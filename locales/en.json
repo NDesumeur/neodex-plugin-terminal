@@ -1,0 +1,13 @@
+{
+ "Arrête aussi une commande qui ne finit pas": "Also stop a command that does not finish",
+ "Ce plugin doit être approuvé par NeoDex pour s'ouvrir.": "This plugin must be approved by NeoDex to open.",
+ "Effacer": "To erase",
+ "Enter": "Enter",
+ "PowerShell dans NeoDex · tape une commande puis Entrée (↑ ↓ : historique). Les programmes plein écran (vim, ssh interactif…) ne marchent pas ici.": "PowerShell in NeoDex · type a command then Enter (↑ ↓: history). Full screen programs (vim, interactive ssh, etc.) do not work here.",
+ "Redémarrer": "Restart",
+ "Rien : l'historique des commandes ne dure que le temps de la session.": "Nothing: the command history only lasts for the session.",
+ "Terminal": "Terminal",
+ "Terminal · PowerShell": "Terminal · PowerShell",
+ "Une console PowerShell dans un onglet de NeoDex : une commande par ligne, l'invite qui suit le dossier courant, les erreurs en rouge, l'historique des 100 dernières commandes aux flèches, et un bouton Redémarrer qui arrête aussi une commande bloquée. Les programmes plein écran comme vim ne fonctionnent pas ici ; rien n'est enregistré.": "A PowerShell console in a NeoDex tab: one command per line, a prompt that follows the current folder, errors in red, the last 100 commands with the arrow keys, and a Restart button that also stops a stuck command. Full-screen programs such as vim do not work here; nothing is stored.",
+ "[PowerShell s'est arrêté. Clique sur « Redémarrer ».]": "[PowerShell has stopped. Click on “Restart”.]"
+}
