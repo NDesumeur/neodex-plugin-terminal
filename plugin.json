@@ -1,7 +1,7 @@
 {
   "id": "neodex.terminal",
   "name": "Terminal",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "NDesumeur",
   "description": "Une console PowerShell, Invite de commandes ou Git Bash dans un onglet de NeoDex : une commande par ligne, l'invite qui suit le dossier courant, les erreurs en rouge, l'historique des 100 dernières commandes aux flèches, et un bouton Redémarrer qui arrête aussi une commande bloquée. Les programmes plein écran comme vim ne fonctionnent pas ici ; rien n'est enregistré. Choix du shell dans la barre : PowerShell, Invite de commandes ou Git Bash (s'il est installé), gardé d'une fois sur l'autre ; Tab complète la commande, le chemin ou le paramètre, et montre la liste quand plusieurs choix existent ; textes et marges selon la taille de l'écran. Le choix du shell demande NeoDex 3.1.17 (avant, PowerShell seulement).",
   "icon": "icon.png",

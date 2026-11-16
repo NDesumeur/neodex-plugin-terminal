@@ -3,7 +3,7 @@
  " s'est arrêté. Clique sur « Redémarrer ».]\n": " stopped. Click “Restart”.]\n",
  "Arrête aussi une commande qui ne finit pas": "Also stop a command that does not finish",
  "Ce plugin doit être approuvé par NeoDex pour s'ouvrir.": "This plugin must be approved by NeoDex to open.",
- "Effacer": "To erase",
+ "Effacer": "Erase",
  "Enter": "Enter",
  "Le shell de ce terminal": "The shell of this terminal",
  "PowerShell dans NeoDex · tape une commande puis Entrée (↑ ↓ : historique). Les programmes plein écran (vim, ssh interactif…) ne marchent pas ici.": "PowerShell in NeoDex · type a command then Enter (↑ ↓: history). Full screen programs (vim, interactive ssh, etc.) do not work here.",
