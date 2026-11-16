@@ -27,7 +27,7 @@ export default async function (ctx) {
   // ---- ton code d'origine ----
 /* ---------- Terminal app: a shell line by line (PowerShell, cmd or Git Bash); the "<<<NEO:dir>>>" marker after each command gives the prompt's folder ---------- */
 let tmCwd = '', tmHist = [], tmHi = -1, tmStarted = false, tmBusy = true, tmTab = null;
-let tmShells = null; try { tmShells = await neo.termShells(); } catch {}  // NeoDex d'avant 3.1.16 : seulement PowerShell
+let tmShells = null; try { tmShells = await neo.termShells(); } catch {}  // NeoDex d'avant 3.1.17 : seulement PowerShell
 let tmSh = (await doc('prefs'))?.shell;
 if (!tmShells?.some(s => s.id === tmSh)) tmSh = tmShells?.[0]?.id || 'powershell';
 const tmShName = () => tmShells?.find(s => s.id === tmSh)?.name || 'PowerShell';
