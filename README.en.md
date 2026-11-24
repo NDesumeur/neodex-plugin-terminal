@@ -1,30 +1,34 @@
 # Terminal
 
-A PowerShell console in a NeoDex tab: type a command, press Enter, and the output appears below, with the current folder in the prompt and a command history.
+A real terminal in a NeoDex tab: PowerShell, Command Prompt, Git Bash or WSL, with the shell's own colors and history, and full-screen programs (vim, htop, ssh…).
 
 *Version française : [README.md](README.md)*
 
 ## Usage
 
-- Type a command in the bottom line, then **Enter**. The prompt shows the current folder ("PS C:\Users\…>") and follows `cd`.
-- The typed command is shown in green, output in light text and errors in red.
-- **↑** and **↓** go through the last 100 commands.
-- `cls` or `clear`, or the **Clear** button, empty the screen.
-- **Restart** relaunches PowerShell; it is also how you stop a command that never ends.
-- Output text can be selected and copied; clicking elsewhere puts the cursor back in the command line.
+- Pick the shell in the bar: PowerShell, PowerShell 7, Command Prompt, Git Bash or WSL, whichever are installed on your PC. The choice is kept.
+- Type as in any terminal: Tab, ↑ ↓, Ctrl+C to stop a command, all handled by the shell itself.
+- **+** (or **Ctrl+Shift+T**) opens another terminal in a tab; the tab's **×** (or **Ctrl+Shift+W**) closes it.
+- **Ctrl+C** copies when text is selected, **Ctrl+V** pastes.
+- **Erase** clears the screen; **Restart** starts the tab's shell again.
+- The terminal size follows the window.
 
 ## Limits
 
-- Commands go through one line at a time: full-screen programs or ones that wait for keys (vim, interactive ssh, menus…) do not work here.
-- With very long output, the beginning eventually scrolls off the screen.
-- PowerShell runs with your usual Windows rights: what you type really acts on your PC.
+- Needs NeoDex 3.4.2 or later. The first opening takes a few seconds: NeoDex prepares its small relay (compiled on your PC, nothing is downloaded).
+- With an older NeoDex, or a Windows without pseudo console (before Windows 10 1809), the old line-by-line terminal takes over.
+- The shell runs with your usual Windows rights: what you type really acts on your PC.
 
 ## Data and sync
 
-Nothing is stored or synced: the command history only lasts for the session.
+Only the shell choice is kept. Nothing else is saved or synced.
+
+## Credits
+
+Display by [xterm.js](https://github.com/xtermjs/xterm.js) 5.5.0 (MIT license, `vendor/xterm.LICENSE`).
 
 ## Install
 
-In NeoDex: **NeoStore → Discover → Terminal → Install**.
+In NeoDex: **NeoStore → Applications → Terminal → Install**.
 
 Building a plugin: see the [NeoDex SDK](https://github.com/NDesumeur/neodex-sdk).

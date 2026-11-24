@@ -1,30 +1,34 @@
 # Terminal
 
-Une console PowerShell dans un onglet de NeoDex : tape une commande, appuie sur Entrée, et la sortie s'affiche en dessous, avec le dossier courant dans l'invite et l'historique des commandes.
+Un vrai terminal dans un onglet de NeoDex : PowerShell, Invite de commandes, Git Bash ou WSL, avec les couleurs et l'historique du shell, et les programmes plein écran (vim, htop, ssh…).
 
 *English version: [README.en.md](README.en.md)*
 
 ## Utilisation
 
-- Tape une commande dans la ligne du bas, puis **Entrée**. L'invite montre le dossier courant (« PS C:\Users\…> ») et suit les `cd`.
-- La commande tapée s'affiche en vert, la sortie en clair et les erreurs en rouge.
-- **↑** et **↓** parcourent les 100 dernières commandes.
-- `cls` ou `clear`, ou le bouton **Effacer**, vident l'écran.
-- **Redémarrer** relance PowerShell ; c'est aussi ce qui arrête une commande qui ne finit pas.
-- Le texte de la sortie se sélectionne et se copie ; un clic ailleurs remet le curseur dans la ligne de commande.
+- Choisis le shell dans la barre : PowerShell, PowerShell 7, Invite de commandes, Git Bash ou WSL, selon ce qui est installé sur ton PC. Le choix est gardé.
+- Tape comme dans n'importe quel terminal : Tab, ↑ ↓, Ctrl+C pour arrêter une commande, tout vient du shell lui-même.
+- **+** (ou **Ctrl+Maj+T**) ouvre un autre terminal dans un onglet ; le **×** de l'onglet (ou **Ctrl+Maj+W**) le ferme.
+- **Ctrl+C** copie quand du texte est sélectionné, **Ctrl+V** colle.
+- **Effacer** vide l'écran ; **Redémarrer** relance le shell de l'onglet.
+- La taille du terminal suit celle de la fenêtre.
 
 ## Limites
 
-- Les commandes passent une ligne à la fois : les programmes plein écran ou qui attendent des touches (vim, ssh interactif, menus…) ne fonctionnent pas ici.
-- Sur une très longue sortie, le début finit par s'effacer de l'écran.
-- PowerShell tourne avec tes droits Windows habituels : ce que tu tapes agit vraiment sur ton PC.
+- Demande NeoDex 3.4.2 ou plus. La première ouverture prend quelques secondes : NeoDex prépare son petit relais (compilé sur ton PC, rien n'est téléchargé).
+- Avec un NeoDex plus ancien, ou un Windows sans pseudo-console (avant Windows 10 1809), l'ancien terminal ligne par ligne prend le relais.
+- Le shell tourne avec tes droits Windows habituels : ce que tu tapes agit vraiment sur ton PC.
 
 ## Données et synchronisation
 
-Rien n'est enregistré ni synchronisé : l'historique des commandes ne dure que le temps de la session.
+Seul le choix du shell est gardé. Rien d'autre n'est enregistré ni synchronisé.
+
+## Crédits
+
+Affichage par [xterm.js](https://github.com/xtermjs/xterm.js) 5.5.0 (licence MIT, `vendor/xterm.LICENSE`).
 
 ## Installer
 
-Dans NeoDex : **NeoStore → À découvrir → Terminal → Installer**.
+Dans NeoDex : **NeoStore → Applications → Terminal → Installer**.
 
 Développer un plugin : voir le [SDK NeoDex](https://github.com/NDesumeur/neodex-sdk).
