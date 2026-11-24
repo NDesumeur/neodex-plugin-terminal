@@ -1,9 +1,9 @@
 {
   "pluginId": "neodex.terminal",
   "repo": "NDesumeur/neodex-plugin-terminal",
-  "version": "1.2.1",
-  "sha256": "9d75e0934abe066b00c57b64b5190add6c8155ddbfa3ca61e4b47e7a6d8b7bb9",
-  "approvedAt": "2026-11-16T16:38:52.044Z",
+  "version": "1.3.0",
+  "sha256": "c00a2b1796b3a9d91fbd089ec91bf000ec2f7800509d7d25348c22f1d332f877",
+  "approvedAt": "2026-11-24T15:56:22.330Z",
   "neobase": ">=4.0.0",
-  "signature": "F7amFSukIkuL1WZjiw9I3hbf7Kuvb1EOboIxl4Rv0dcFGb/Gjfc7ZnwUl0Dz+CRakvPSTqi7o40P6i+DloyUDw=="
+  "signature": "fxxVk8zEgZQ73KGHDla9z2wi29tdT5LrbsQFM6yqcKswwHZk82wlAjCLKrqhmRR06GGr8ojzlU6S4FchRKaoAQ=="
 }
